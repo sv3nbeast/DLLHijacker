@@ -532,7 +532,7 @@ X64ITEM
   </ItemGroup>
 ''').replace('TEMPLATE_DLLNAME', dllname)
 
-        with open(sub_folder + '\\' + dllname + '.vcxproj.filters', "w") as f:
+        with open(sub_folder + '\\' + dllname + '.vcxproj.filters', "wb") as f:
             f.write(txtFilter)
 
 
